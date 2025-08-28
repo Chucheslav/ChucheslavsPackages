@@ -1,0 +1,16 @@
+{
+  "name": "com.gorynych.tmpadaptersforsoa",
+  "version": "1.0.0",
+  "displayName": "Textmeshpro adapters for SOA",
+  "description": "TMP monobehaviours for use with SOA",
+  "unity": "2022.1",
+  "dependencies": {
+	"com.gorynych.tools" : "1.0.0",
+    "com.gorynych.scriptableobjectarchitecture" : "1.0.0",
+    "com.unity.textmeshpro" : "3.0.0"    
+  },
+  "author": {
+    "name": "Chucheslav",
+    "email": "stanislav.groznov@gmail.com"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "EditorGeneral",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d8ed91f332850ec47b552e1924db1c72"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

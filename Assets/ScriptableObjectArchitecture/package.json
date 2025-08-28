@@ -1,0 +1,14 @@
+{
+  "name": "com.gorynych.scriptableobjectarchitecture",
+  "version": "1.0.0",
+  "displayName": "Scriptable Object Architecture",
+  "description": "A base for using scriptable objects in many interesting ways, requires my tools",
+  "unity": "2022.1",
+  "dependencies": {
+    "com.gorynych.tools": "1.0.0"
+  },
+  "author": {
+    "name": "Chucheslav",
+    "email": "stanislav.groznov@gmail.com"
+  }
+}

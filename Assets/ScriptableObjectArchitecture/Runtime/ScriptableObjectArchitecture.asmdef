@@ -1,0 +1,22 @@
+{
+    "name": "ScriptableObjectArchitecture",
+    "rootNamespace": "ScriptableObjectArchitecture",
+    "references": [
+        "GUID:d8ed91f332850ec47b552e1924db1c72"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "3.0.0",
+            "define": "TEXTMESHPRO"
+        }
+    ],
+    "noEngineReferences": false
+}
