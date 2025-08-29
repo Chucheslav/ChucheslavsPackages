@@ -9,5 +9,6 @@
   "author": {
     "name": "Chucheslav",
     "email": "stanislav.groznov@gmail.com"
-  }
+  },
+  "hideInEditor": false
 }
