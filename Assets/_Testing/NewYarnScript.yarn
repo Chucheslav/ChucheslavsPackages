@@ -1,0 +1,35 @@
+﻿title: NewYarnScript
+---
+Проверко!
+-> Камера на точку 1
+    <<mainCameraToMarker marker1>>
+-> Камера на точку 2
+    <<mainCameraToMarker marker2>>
+-> Создай кубик
+    <<placeObject cube cubeMarker>>
+-> Создай шарик
+    <<placeObject sphere sphereMarker>>
+-> Включи цилиндр
+    <<enableObject cylinder>>
+-> Выключи цилиндр
+    <<disableObject cylinder>>
+-> Cуществует ли цилиндр?
+    <<if objectExists("cylinder")>>
+        Да
+    <<else>>
+        Нет
+    <<endif>>
+->Включен ли цилиндр?
+    <<if objectIsEnabled("cylinder")>>
+        Да
+    <<elseif !objectExists("cylinder")>>
+        Не существует
+    <<elseif !objectIsEnabled("cylinder")>>
+        Нет    
+    <<else>>
+        этой надписи здесь быть не должно
+    <<endif>>
+-> Выход
+    <<stop>>
+<<jump NewYarnScript>>
+===

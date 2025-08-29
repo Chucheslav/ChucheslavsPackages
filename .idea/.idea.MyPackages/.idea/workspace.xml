@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonChacter.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonChacter/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonChacter/LICENSE.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonChacter/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonChacter/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonChacter/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/KeyboardKeyEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/KeyboardKeyEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/MiscCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/MiscCommands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnStorageSO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnStorageSO.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnStorageToScriptableObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnStorageToScriptableObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnUnityCommands.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnUnityCommands.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,30 +24,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/YarnExtensions/YarnFunctions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/YarnExtensions/YarnPrefabPlacerCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37cc348edc804f4cb176b63962c716e7177200/13/0a969786/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d44b17e136d09081da1e8fd0e8c83fde60e11818b9f2442d7ed8cb733fae895e/System.Collections.Generic.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="31xP42h60C3TZsA50RJaNmN0CNs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\UnityEditor\2022.3.62f1\Editor\Unity.exe" />
@@ -110,7 +123,8 @@
       <updated>1756462557570</updated>
       <workItem from="1756462561947" duration="17000" />
       <workItem from="1756462616235" duration="137000" />
-      <workItem from="1756463298049" duration="740000" />
+      <workItem from="1756463298049" duration="3620000" />
+      <workItem from="1756476727784" duration="8578000" />
     </task>
     <servers />
   </component>

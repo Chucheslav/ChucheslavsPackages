@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 namespace UnityEventsAndComponents.EventsAndCommands
 {
-[AddComponentMenu("Custom Events/Events/Keyboard Key Event")]
+[AddComponentMenu("Custom Events/Triggers/Keyboard Key Event")]
 public class KeyboardKeyEvent : MonoBehaviour
 {
     [SerializeField] private string buttonName;

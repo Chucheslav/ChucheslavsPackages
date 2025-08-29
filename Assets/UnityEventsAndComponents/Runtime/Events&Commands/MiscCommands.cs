@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 namespace UnityEventsAndComponents.EventsAndCommands
 {
-[AddComponentMenu("Custom Events/Events/Misc Commands")]
+[AddComponentMenu("Custom Events/Commands/Misc Commands")]
 public class MiscCommands : MonoBehaviour
 {
     public void LoadScene(string sceneName) => SceneManager.LoadScene(sceneName);
