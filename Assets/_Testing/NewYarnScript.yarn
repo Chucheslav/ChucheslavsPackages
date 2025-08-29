@@ -1,9 +1,10 @@
 ﻿title: NewYarnScript
 ---
 Проверко!
--> Правый удивись!
-    <<playAnimation Ethan "Surprised">>
--> Левый удивись!
-    <<playAnimation NotEthan "Surprised">>
+-> Событие 1
+    <<invokeEvent GameObject второе>>
+-> Cобытие 2
+    <<invokeEvent Vasya первое>>
+
 <<jump NewYarnScript>>
 ===

@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/FloatVariableSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/FloatVariableSetter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/StringVariableSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/StringVariableSetter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/YarnCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/YarnCommands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/YarnFunctions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/YarnFunctions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/YarnPrefabPlacerCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/YarnPrefabPlacerCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/YarnStorageToScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/YarnStorageToScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/YarnValueSetter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/YarnValueSetter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +118,7 @@
       <workItem from="1756462561947" duration="17000" />
       <workItem from="1756462616235" duration="137000" />
       <workItem from="1756463298049" duration="3620000" />
-      <workItem from="1756476727784" duration="11035000" />
+      <workItem from="1756476727784" duration="13006000" />
     </task>
     <servers />
   </component>
