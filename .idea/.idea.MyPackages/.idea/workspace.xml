@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnCanvasGroupFade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnCanvasGroupFade.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/YarnExtensions/CharacterListSO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/YarnExtensions/YarnAnimationPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/YarnExtensions/YarnFunctions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/YarnExtensions/YarnPrefabPlacerCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnCameraFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37cc348edc804f4cb176b63962c716e7177200/13/0a969786/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d44b17e136d09081da1e8fd0e8c83fde60e11818b9f2442d7ed8cb733fae895e/System.Collections.Generic.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -118,7 +119,7 @@
       <workItem from="1756462561947" duration="17000" />
       <workItem from="1756462616235" duration="137000" />
       <workItem from="1756463298049" duration="3620000" />
-      <workItem from="1756476727784" duration="13006000" />
+      <workItem from="1756476727784" duration="15651000" />
     </task>
     <servers />
   </component>

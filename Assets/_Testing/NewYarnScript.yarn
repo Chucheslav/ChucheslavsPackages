@@ -1,10 +1,10 @@
 ﻿title: NewYarnScript
 ---
 Проверко!
--> Событие 1
-    <<invokeEvent GameObject второе>>
--> Cобытие 2
-    <<invokeEvent Vasya первое>>
+-> Затемни
+    <<fadeIn>>
+-> Просветли
+    <<fadeOut>>
 
 <<jump NewYarnScript>>
 ===
