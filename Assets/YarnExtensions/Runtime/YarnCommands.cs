@@ -2,6 +2,8 @@ using System.Linq;
 using UnityEngine;
 using Yarn.Unity;
 
+namespace YarnExtensions
+{
 public static class YarnCommands
 {
     [YarnCommand("mainCameraToMarker")]
@@ -34,4 +36,5 @@ public static class YarnCommands
         
         objectName.SetActive(false);
     }
+}
 }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
 
+namespace YarnExtensions
+{
 [AddComponentMenu("Custom Components/Yarn Spinner/Prefab Placer")]
 [DisallowMultipleComponent]
 public class YarnPrefabPlacer : MonoBehaviour
@@ -43,4 +45,5 @@ public class YarnPrefabPlacer : MonoBehaviour
         // Transform marker = GameObject.Find(markerName).transform;
         Instantiate(toPlace, marker.transform. position, marker.transform.rotation);
     }
+}
 }

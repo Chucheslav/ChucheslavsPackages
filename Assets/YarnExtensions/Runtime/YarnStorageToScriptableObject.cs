@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
-using YarnExtensions;
 
+namespace YarnExtensions
+{
 [AddComponentMenu(menuName: "Сustom Components/Yarn Spinner/Variable Storage to Scriptable Object")]
 public class YarnStorageToScriptableObject : VariableStorageBehaviour
 {
@@ -36,4 +37,5 @@ public class YarnStorageToScriptableObject : VariableStorageBehaviour
 
     public override (Dictionary<string, float> FloatVariables, Dictionary<string, string> StringVariables, Dictionary<string, bool> BoolVariables) GetAllVariables() => 
         scriptableObjectStorage.GetAllVariables();
+}
 }

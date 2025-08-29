@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using Yarn.Unity;
 
+namespace YarnExtensions
+{
 public abstract class YarnValueSetter<T> : MonoBehaviour
 {
     [SerializeField] protected string variableName;
@@ -12,4 +14,5 @@ public abstract class YarnValueSetter<T> : MonoBehaviour
     }
     
     public abstract void SetValue(T value);
+}
 }
