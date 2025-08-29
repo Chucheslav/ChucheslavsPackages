@@ -11,6 +11,7 @@ public class SetNavAgentTargetFromTagOrTransform : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private string targetTag;
     [SerializeField][Min(0)] private float updateInterval = 0.1f;
+    [SerializeField] private bool updateToClosest;
 
     private float _timer;
 
@@ -19,6 +20,12 @@ public class SetNavAgentTargetFromTagOrTransform : MonoBehaviour
         if(!target) return;
         _timer -= Time.deltaTime;
         if(_timer > 0 ) return;
+        if (updateToClosest)
+        {
+            FindAndSetTarget();
+            return;
+        }
+
         agent.SetDestination(target.position);
         _timer = updateInterval;
     }
