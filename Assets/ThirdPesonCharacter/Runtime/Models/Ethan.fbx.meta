@@ -1269,10 +1269,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 32351
-  packageName: Standard Assets (for Unity 2018.4)
-  packageVersion: 1.1.6
-  assetPath: Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
-  uploadId: 361648
