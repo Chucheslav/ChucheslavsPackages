@@ -1,10 +1,12 @@
-﻿title: NewYarnScript
+title: NewYarnScript
 ---
 Проверко!
 -> Затемни
     <<fadeIn>>
 -> Просветли
     <<fadeOut>>
-
+-> Cчетчик +1
+    <<adjustCounterF counter 1>>
+значение
 <<jump NewYarnScript>>
 ===

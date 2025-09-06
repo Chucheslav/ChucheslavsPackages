@@ -2,7 +2,8 @@
     "name": "YarnExtensions",
     "rootNamespace": "",
     "references": [
-        "GUID:34aa492b82754644eac2f903cd496268"
+        "GUID:34aa492b82754644eac2f903cd496268",
+        "GUID:4f7746ca9eb30b74a982d527ebd9d9af"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -11,6 +12,12 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.gorynych.unityevents_and_components",
+            "expression": "",
+            "define": "BASE_COMPONENTS"
+        }
+    ],
     "noEngineReferences": false
 }

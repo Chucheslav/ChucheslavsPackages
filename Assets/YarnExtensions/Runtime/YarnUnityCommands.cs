@@ -3,7 +3,7 @@ using Yarn.Unity;
 
 namespace YarnExtensions
 {
-[AddComponentMenu(menuName: "Сustom Components/Yarn Spinner/Yarn Unity Commands")]
+[AddComponentMenu(menuName: "Custom Events/Commands/Yarn Unity Commands")]
 public class YarnUnityCommands : MonoBehaviour
 {
     public void RunDialogue(string nodeName)

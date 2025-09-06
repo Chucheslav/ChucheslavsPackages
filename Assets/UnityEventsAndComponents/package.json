@@ -1,10 +1,11 @@
 {
   "name": "com.gorynych.unityevents_and_components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Chucheslav's Unity Events and Simple Components",
   "description": "Numerous new UnityEvent triggers and command components and some other basic components",
   "unity": "2022.1",
   "dependencies": {
+	  "com.unity.ai.navigation"
   },
   "author": {
     "name": "Chucheslav",

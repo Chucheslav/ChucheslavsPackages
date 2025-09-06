@@ -3,26 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 namespace UnityEventsAndComponents.Counters
 {
 public class CounterComponent<T> : MonoBehaviour where T: IComparable<T>, IEquatable<T>
 {
     [SerializeField] private List<CounterConditions> conditions = new();
-    [SerializeField] protected T value;
+    [field: SerializeField] public T Value { get; protected set; }
     [SerializeField] private T defaultValue;
     [SerializeField] private bool resetOnEnable;
     [SerializeField] private bool resetOnDisable;
+    [SerializeField] private UnityEvent<T> onValueChanged;
 
     public void SetValue(T newValue)
     {
-        value = newValue;
+        Value = newValue;
+        onValueChanged.Invoke(Value);
         CheckConditions();
     }
 
     public void Reset()
     {
-        value = defaultValue;
+        Value = defaultValue;
     }
 
     private void OnEnable()
@@ -38,7 +41,7 @@ public class CounterComponent<T> : MonoBehaviour where T: IComparable<T>, IEquat
     private void CheckConditions()
     {
         if(!conditions.Any()) return;
-        foreach (var condition in conditions) condition.CheckAndInvoke(value);
+        foreach (var condition in conditions) condition.CheckAndInvoke(Value);
     }
     
     

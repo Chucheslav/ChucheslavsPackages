@@ -5,6 +5,7 @@
   "description": "Based on old standard asset, ready to plug in to your scenes",
   "unity": "2022.1",
   "dependencies": {
+	  "com.unity.ai.navigation"
   },
   "author": {
     "name": "Chucheslav",

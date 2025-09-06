@@ -36,5 +36,23 @@ public static class YarnCommands
         
         objectName.SetActive(false);
     }
+
+    [YarnCommand("MoveObjectToMarker")]
+    public static void MoveObject(GameObject objectName, GameObject target)
+    {
+        if (!objectName)
+        {
+            Debug.LogError("Couldn't find object to move");
+            return;
+        }
+
+        if (!target)
+        {
+            Debug.LogError($"Couldn't find target to move {objectName.name} to");
+            return;
+        }
+        
+        objectName.transform.SetPositionAndRotation(target.transform.position, target.transform.rotation);
+    }
 }
 }

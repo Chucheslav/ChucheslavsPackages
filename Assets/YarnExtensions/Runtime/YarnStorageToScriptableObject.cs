@@ -4,7 +4,7 @@ using Yarn.Unity;
 
 namespace YarnExtensions
 {
-[AddComponentMenu(menuName: "Сustom Components/Yarn Spinner/Variable Storage to Scriptable Object")]
+[AddComponentMenu(menuName: "Custom Components/Yarn Spinner/Variable Storage to Scriptable Object")]
 public class YarnStorageToScriptableObject : VariableStorageBehaviour
 {
     [SerializeField] private YarnStorageSO scriptableObjectStorage;

@@ -1,10 +1,11 @@
 {
   "name": "com.gorynych.yarnextensions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Chucheslav's Yarn Extensions",
   "description": "Assorted presenters, scriptable object variable storage and other useful components",
   "unity": "2022.1",
   "dependencies": {
+	  "com.gorynych.unityevents_and_components" : "git@github.com:Chucheslav/ChucheslavsPackages.git?path=/Assets/UnityEventsAndComponents"
   },
   "author": {
     "name": "Chucheslav",

@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 namespace NavigationExtensions
 {
-[AddComponentMenu("Custom Components/Commands/Nav Agent Commands")]
+[AddComponentMenu("Custom Events/Commands/Nav Agent Commands")]
 public class NavAgentCommands : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent agent;
