@@ -5,7 +5,7 @@
   "description": "Assorted presenters, scriptable object variable storage and other useful components",
   "unity": "2022.1",
   "dependencies": {
-	  "com.gorynych.unityevents_and_components" : "git@github.com:Chucheslav/ChucheslavsPackages.git?path=/Assets/UnityEventsAndComponents"
+	  "com.gorynych.unityevents_and_components": "git@github.com:Chucheslav/ChucheslavsPackages.git?path=/Assets/UnityEventsAndComponents"
   },
   "author": {
     "name": "Chucheslav",
