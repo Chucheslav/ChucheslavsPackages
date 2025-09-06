@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonCharacter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPesonCharacter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Counters/CounterComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Counters/CounterComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Counters/FloatCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Counters/FloatCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Counters/IntCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Counters/IntCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/NavAgentCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/NavAgentCommands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/ScriptableObjects/FloatCounterScriptableObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/ScriptableObjects/FloatCounterScriptableObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/ScriptableObjects/IntCounterScriptableObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/ScriptableObjects/IntCounterScriptableObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/ScriptableObjects/ScriptableObjectCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/ScriptableObjects/ScriptableObjectCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/UnityEventsAndComponents.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/UnityEventsAndComponents.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnCommands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnExtensions.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnExtensions.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnStorageToScriptableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnStorageToScriptableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnUnityCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnUnityCommands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +116,7 @@
       <workItem from="1756574691599" duration="50000" />
       <workItem from="1757152496696" duration="3930000" />
       <workItem from="1757157444182" duration="5020000" />
-      <workItem from="1757162783357" duration="423000" />
+      <workItem from="1757162783357" duration="930000" />
     </task>
     <servers />
   </component>

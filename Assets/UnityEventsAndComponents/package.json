@@ -5,7 +5,6 @@
   "description": "Numerous new UnityEvent triggers and command components and some other basic components",
   "unity": "2022.1",
   "dependencies": {
-	  "com.unity.ai.navigation"
   },
   "author": {
     "name": "Chucheslav",
