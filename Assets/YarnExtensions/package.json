@@ -1,6 +1,6 @@
 {
   "name": "com.gorynych.yarnextensions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Chucheslav's Yarn Extensions",
   "description": "Assorted presenters, scriptable object variable storage and other useful components",
   "unity": "2022.1",
