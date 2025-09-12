@@ -5,6 +5,7 @@ using UnityEngine.AI;
 namespace NavigationExtensions
 {
 [AddComponentMenu("Custom Components/Navigation/Nav Agent Destination from Tag or Transform")]
+[RequireComponent(typeof(NavMeshAgent))]
 public class SetNavAgentTargetFromTagOrTransform : MonoBehaviour
 {
     [SerializeField] private NavMeshAgent agent;

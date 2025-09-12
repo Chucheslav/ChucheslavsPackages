@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonCharacter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPesonCharacter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/MiscCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/MiscCommands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/TMPTextCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/TMPTextCommands.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/NavAgentDestinationFromPointerPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/NavAgentDestinationFromPointerPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/SetNavAgentTargetFromTagOrTransform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/SetNavAgentTargetFromTagOrTransform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/DisableMeshRendererOnStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/DisableMeshRendererOnStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/StretchToScreenSR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/StretchToScreenSR.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/UI/GameObjectActiveToggleButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/UI/GameObjectActiveToggleButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/CharacterListSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/CharacterListSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Basic Components/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/TMPTextCommands.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37cc348edc804f4cb176b63962c716e7177200/13/0a969786/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d44b17e136d09081da1e8fd0e8c83fde60e11818b9f2442d7ed8cb733fae895e/System.Collections.Generic.cs" root0="SKIP_HIGHLIGHTING" />
@@ -118,7 +131,9 @@
       <workItem from="1756574691599" duration="50000" />
       <workItem from="1757152496696" duration="3930000" />
       <workItem from="1757157444182" duration="5020000" />
-      <workItem from="1757162783357" duration="1819000" />
+      <workItem from="1757162783357" duration="4451000" />
+      <workItem from="1757510957658" duration="3245000" />
+      <workItem from="1757594885918" duration="7878000" />
     </task>
     <servers />
   </component>

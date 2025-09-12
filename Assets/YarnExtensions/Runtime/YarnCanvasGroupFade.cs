@@ -6,6 +6,7 @@ namespace YarnExtensions
 {
 [AddComponentMenu("Custom Components/Yarn Spinner/Canvas Group Fade")]
 [RequireComponent(typeof(CanvasGroup))]
+[DisallowMultipleComponent]
 public class YarnCanvasGroupFade : MonoBehaviour
 {
     [SerializeField][Min(0)] private float fadeDuration = 1f;

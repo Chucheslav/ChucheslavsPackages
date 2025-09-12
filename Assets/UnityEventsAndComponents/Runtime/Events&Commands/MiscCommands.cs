@@ -20,7 +20,7 @@ public class MiscCommands : MonoBehaviour
         if (gameObject.TryGetComponent(out Rigidbody2D rb2d)) rb2d.gravityScale = scale;
     }
 
-    public void SetActive(bool on) => gameObject.SetActive(on);
+    //public void SetActive(bool on) => gameObject.SetActive(on);
 
     public void Destroy() => Destroy(gameObject);
 

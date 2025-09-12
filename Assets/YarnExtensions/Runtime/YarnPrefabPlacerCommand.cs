@@ -11,7 +11,7 @@ public class YarnPrefabPlacer : MonoBehaviour
 {
     [SerializeField] private List<GameobjectByID> gameObjects = new();
     
-    private DialogueRunner dialogueRunner;
+    private DialogueRunner _dialogueRunner;
     
     [Serializable]
     private class GameobjectByID
@@ -22,9 +22,9 @@ public class YarnPrefabPlacer : MonoBehaviour
 
     private void OnEnable()
     {
-        dialogueRunner = FindObjectOfType<DialogueRunner>();
-        if (!dialogueRunner) Debug.LogError("DialogueRunner not found");
-        dialogueRunner.AddCommandHandler<string, GameObject>("placeObject", PlaceObject);
+        _dialogueRunner = FindObjectOfType<DialogueRunner>();
+        if (!_dialogueRunner) Debug.LogError("DialogueRunner not found");
+        _dialogueRunner.AddCommandHandler<string, GameObject>("placeObject", PlaceObject);
     }
 
     public void PlaceObject(string id, GameObject marker)

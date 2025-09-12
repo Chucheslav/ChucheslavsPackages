@@ -8,6 +8,7 @@ namespace YarnExtensions
 {
 [RequireComponent(typeof(FloatCounter))]
 [AddComponentMenu("Custom Components/Yarn Spinner/Float Counter Commands")]
+[DisallowMultipleComponent]
 public class YarnFloatCounterCommands : MonoBehaviour
 {
     private FloatCounter _counter;

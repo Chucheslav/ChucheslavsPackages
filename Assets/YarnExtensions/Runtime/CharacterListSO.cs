@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace YarnExtensions
 {
-[CreateAssetMenu(menuName = "Yarn Spinner/Extras/CharacterList")]
+[CreateAssetMenu(menuName = "Yarn Spinner/Extras/Character List")]
 public class CharacterListSO : ScriptableObject
 {
     [SerializeField] private List<DialogueCharacter> dialogueCharacters = new();

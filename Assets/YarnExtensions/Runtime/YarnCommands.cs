@@ -37,7 +37,7 @@ public static class YarnCommands
         objectName.SetActive(false);
     }
 
-    [YarnCommand("MoveObjectToMarker")]
+    [YarnCommand("moveObjectToMarker")]
     public static void MoveObject(GameObject objectName, GameObject target)
     {
         if (!objectName)
