@@ -6,15 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/MiscCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/MiscCommands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/TMPTextCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/TMPTextCommands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/NavAgentDestinationFromPointerPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/NavAgentDestinationFromPointerPosition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/SetNavAgentTargetFromTagOrTransform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/SetNavAgentTargetFromTagOrTransform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/DisableMeshRendererOnStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/DisableMeshRendererOnStart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/StretchToScreenSR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/StretchToScreenSR.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/UI/GameObjectActiveToggleButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/UI/GameObjectActiveToggleButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/CharacterListSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/CharacterListSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Documentation~/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Documentation~/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnExtensions.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnExtensions.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
@@ -30,7 +25,15 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Basic Components/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/TMPTextCommands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/SetNavAgentTargetFromTagOrTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnLineToTMPText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@608d089045/Runtime/DialogueRunner/DialogueRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@608d089045/Runtime/LineProviders/LineProviderBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@608d089045/Runtime/YarnProject/YarnProject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37cc348edc804f4cb176b63962c716e7177200/13/0a969786/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f5e638e5f09943f191a16329163c5d422da00/4e/f900e592/VirtualMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f5e638e5f09943f191a16329163c5d422da00/b6/b08604b7/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f5e638e5f09943f191a16329163c5d422da00/d6/e6111e7f/Line.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d44b17e136d09081da1e8fd0e8c83fde60e11818b9f2442d7ed8cb733fae895e/System.Collections.Generic.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -134,6 +137,9 @@
       <workItem from="1757162783357" duration="4451000" />
       <workItem from="1757510957658" duration="3245000" />
       <workItem from="1757594885918" duration="7878000" />
+      <workItem from="1757659791436" duration="8767000" />
+      <workItem from="1758029967407" duration="9366000" />
+      <workItem from="1758367166525" duration="5322000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-title: NewYarnScript
+title: Test
 ---
 Проверко!
 -> Затемни
@@ -9,4 +9,11 @@ title: NewYarnScript
     <<adjustCounterF counter 1>>
 значение
 <<jump NewYarnScript>>
+===
+
+title: Test1
+---
+Первая
+Вторая
+<color=red>Третья очень очень длинная строчка </color>
 ===
