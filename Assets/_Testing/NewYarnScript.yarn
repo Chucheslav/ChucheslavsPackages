@@ -1,14 +1,8 @@
 title: Test
 ---
-Проверко!
--> Затемни
-    <<fadeIn>>
--> Просветли
-    <<fadeOut>>
--> Cчетчик +1
-    <<adjustCounterF counter 1>>
-значение
-<<jump NewYarnScript>>
+Проверко
+<<invokeEvent Cube "test" >>
+Продолжение проверки
 ===
 
 title: Test1
