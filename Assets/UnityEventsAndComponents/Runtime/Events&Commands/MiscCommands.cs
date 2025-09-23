@@ -29,5 +29,11 @@ public class MiscCommands : MonoBehaviour
     public void UnParent() => transform.parent = null;
 
     public void QuitApp() => Application.Quit();
+
+    public void ToggleCusorLock(bool on)
+    {
+        Cursor.lockState = on? CursorLockMode.Locked : CursorLockMode.Confined;
+        Cursor.visible = !on;
+    }
 }
 }
