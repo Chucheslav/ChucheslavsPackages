@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using Yarn.Unity;
 
@@ -15,5 +16,14 @@ public class YarnAnimationPlayer : MonoBehaviour
     
     [YarnCommand ("playAnimation")]
     public void PlayAnimation(string animationName) => animator.Play(animationName);
+
+    [YarnCommand("awaitAnimation")]
+    public IEnumerator PlayAnimationAndWait(string animationName)
+    {
+        animator.Play(animationName);
+        yield return null;
+        while(animator.GetCurrentAnimatorStateInfo(0).IsName(animationName) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1)
+            yield return null;
+    }
 }
 }

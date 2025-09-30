@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Cube (1).controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Cube (1).controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Test.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Test.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/idel.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/idel.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/MiscCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/MiscCommands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/UI/MenuActions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/UI/MenuActions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Documentation~/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Documentation~/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnAnimationPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnAnimationPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +145,8 @@
       <workItem from="1758029967407" duration="9366000" />
       <workItem from="1758367166525" duration="6202000" />
       <workItem from="1758538669050" duration="3470000" />
-      <workItem from="1758623322764" duration="954000" />
+      <workItem from="1758623322764" duration="1734000" />
+      <workItem from="1759233120885" duration="1350000" />
     </task>
     <servers />
   </component>

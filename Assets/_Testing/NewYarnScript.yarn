@@ -1,13 +1,6 @@
 title: Test
 ---
 Проверко
-<<invokeEvent Cube "test" >>
+<<AwaitAnimation TestCube "Test" >>
 Продолжение проверки
-===
-
-title: Test1
----
-Первая
-Вторая
-<color=red>Третья очень очень длинная строчка </color>
 ===
