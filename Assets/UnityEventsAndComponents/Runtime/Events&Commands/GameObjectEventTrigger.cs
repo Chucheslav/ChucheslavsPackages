@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 namespace UnityEventsAndComponents.EventsAndCommands
 {
-[AddComponentMenu("Custom Events/Triggers//GameObject Event Trigger")]
+[AddComponentMenu("Custom Events/Triggers/GameObject Event Trigger")]
 public class GameObjectEventTrigger : MonoBehaviour
 {
     [SerializeField] private UnityEvent triggeredEvent;
