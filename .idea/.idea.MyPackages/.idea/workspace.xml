@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Cube (1).controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Cube (1).controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Test.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Test.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/idel.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/idel.anim.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Documentation~/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Documentation~/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnAnimationPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnAnimationPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnExtensions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YarnExtensions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/NewYarnScript.yarn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +22,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Basic Components/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/TMPTextCommands.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/SetNavAgentTargetFromTagOrTransform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/YarnExtensions/Runtime/YarnLineToTMPText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@608d089045/Runtime/DialogueRunner/DialogueRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@608d089045/Runtime/LineProviders/LineProviderBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@608d089045/Runtime/Views/OptionsPresenter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@608d089045/Runtime/YarnProject/YarnProject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37cc348edc804f4cb176b63962c716e7177200/13/0a969786/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f5e638e5f09943f191a16329163c5d422da00/4e/f900e592/VirtualMachine.cs" root0="FORCE_HIGHLIGHTING" />
@@ -147,6 +139,8 @@
       <workItem from="1758538669050" duration="3470000" />
       <workItem from="1758623322764" duration="1734000" />
       <workItem from="1759233120885" duration="1350000" />
+      <workItem from="1759414929298" duration="607000" />
+      <workItem from="1760024146850" duration="1773000" />
     </task>
     <servers />
   </component>
