@@ -55,7 +55,7 @@ public class YarnStorageSO: ScriptableObject
                 result = f;
                 return true;
             case null: 
-                return;
+                return false;
             default:
                 Debug.LogError($"Unknown variable type {result.GetType()}");
                 return false;
