@@ -16,7 +16,7 @@ public static class YarnCommands
     [YarnCommand("enableObject")]
     public static void EnableObject(string objectName)
     {
-        GameObject toEnable = GameObject.FindObjectsOfType<GameObject>(true).FirstOrDefault(g => g.name == objectName);
+        GameObject toEnable = GameObject.FindObjectsByType(typeof(GameObject), FindObjectsInactive.Include, FindObjectsSortMode.None).FirstOrDefault(g => g.name == objectName) as GameObject;
         if (!toEnable)
         {
             Debug.LogError($"no object named {objectName} found");

@@ -16,7 +16,7 @@ public class YarnCanvasGroupFade : MonoBehaviour
     private void Awake()
     {
         _fadeEffect = GetComponent<CanvasGroup>();
-        DialogueRunner dialogueRunner = FindObjectOfType<DialogueRunner>();
+        DialogueRunner dialogueRunner = FindFirstObjectByType<DialogueRunner>();
         if (!dialogueRunner)
         {
             Debug.LogError("DialogueRunner not found");

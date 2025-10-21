@@ -10,7 +10,7 @@ public abstract class YarnValueSetter<T> : MonoBehaviour
 
     protected void Awake()
     {
-        if(!variableStorage) variableStorage = FindObjectOfType<VariableStorageBehaviour>(); 
+        if(!variableStorage) variableStorage = FindFirstObjectByType<VariableStorageBehaviour>();
     }
     
     public abstract void SetValue(T value);

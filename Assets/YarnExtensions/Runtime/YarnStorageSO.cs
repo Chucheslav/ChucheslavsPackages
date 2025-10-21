@@ -35,31 +35,31 @@ public class YarnStorageSO: ScriptableObject
     
     public bool TryGetValue<T>(string variableName, out T result)
     {
-        result = default(T);
-
-        switch (result)
+        
+        StringEntry se = strings.FirstOrDefault(entry => entry.id == variableName);
+        if (se != null && se.value is T str)
         {
-            case string:
-                StringEntry se = strings.FirstOrDefault(s => s.id == variableName);
-                if (se == null || se is not T s) return false;
-                result = s;
-                return true;
-            case bool:
-                BoolEntry be = bools.FirstOrDefault(s => s.id == variableName);
-                if (be == null || be is not T b) return false;
-                result = b;
-                return true;
-            case float:
-                FloatEntry fe = numbers.FirstOrDefault(s => s.id == variableName);
-                if (fe == null || fe is not T f) return false;
-                result = f;
-                return true;
-            case null: 
-                return false;
-            default:
-                Debug.LogError($"Unknown variable type {result.GetType()}");
-                return false;
+            result = str;
+            return true;
         }
+        
+        BoolEntry be = bools.FirstOrDefault(entry => entry.id == variableName);
+        if (be != null && be.value is T b)
+        {
+            result = b;
+            return true;
+        }
+        
+        FloatEntry fe = numbers.FirstOrDefault(entry => entry.id == variableName);
+        if (fe != null && fe.value is T f)
+        {
+            result = f;
+            return true;
+        }
+        
+        Debug.LogWarning($"Could not find variable {variableName}");
+        result = default;
+        return false;
     }
     
     public void SetValue(string variableName, string stringValue)

@@ -1,6 +1,6 @@
 title: Test
 ---
-Проверко
-<<AwaitAnimation TestCube "Test" >>
-Продолжение проверки
+-> включи объект
+    <<enableObject Test>>
+-> оно существует <<if objectExists("Test")>>
 ===

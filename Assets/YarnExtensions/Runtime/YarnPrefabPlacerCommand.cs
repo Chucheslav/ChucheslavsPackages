@@ -22,7 +22,7 @@ public class YarnPrefabPlacer : MonoBehaviour
 
     private void OnEnable()
     {
-        _dialogueRunner = FindObjectOfType<DialogueRunner>();
+        _dialogueRunner = FindFirstObjectByType<DialogueRunner>();
         if (!_dialogueRunner) Debug.LogError("DialogueRunner not found");
         _dialogueRunner.AddCommandHandler<string, GameObject>("placeObject", PlaceObject);
     }

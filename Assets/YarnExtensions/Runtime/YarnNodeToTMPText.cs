@@ -25,7 +25,7 @@ public class YarnNodeToTMPText : MonoBehaviour
     private void Awake()
     {
         if(!text) text = GetComponent<TextMeshProUGUI>();
-        _dialogueRunner = FindObjectOfType<DialogueRunner>(true);
+        _dialogueRunner = FindFirstObjectByType<DialogueRunner>();
     }
 
     public async void ShowText(string nodeID)
