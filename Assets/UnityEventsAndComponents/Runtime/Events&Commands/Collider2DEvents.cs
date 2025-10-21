@@ -8,6 +8,7 @@ public class Collider2DEvents : MonoBehaviour
 {
     [SerializeField] private UnityEvent triggeredEvent;
     [SerializeField] private EventType eventType;
+    [SerializeField] private LayerMask layerMask = Physics.AllLayers;
     
     [Header("Vector3 event")]
     [SerializeField] public Vector3UnityEvent vector3Event;
@@ -17,20 +18,23 @@ public class Collider2DEvents : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(eventType != EventType.OnCollisionEnter ) return;
+        if((layerMask & (1 << collision.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
 
-    private void OnCollisionExit2D(Collision2D other)
+    private void OnCollisionExit2D(Collision2D collision)
     {
         if(eventType != EventType.OnCollisionExit ) return;
+        if((layerMask & (1 << collision.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
 
-    private void OnCollisionStay2D(Collision2D collisionInfo)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if(eventType != EventType.OnCollisionStay ) return;
+        if((layerMask & (1 << collision.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
@@ -38,6 +42,7 @@ public class Collider2DEvents : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(eventType != EventType.OnTriggerEnter) return;
+        if((layerMask & (1 << other.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
@@ -45,6 +50,7 @@ public class Collider2DEvents : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         if(eventType != EventType.OnTriggerExit ) return;
+        if((layerMask & (1 << other.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
@@ -52,6 +58,7 @@ public class Collider2DEvents : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other)
     {
         if(eventType != EventType.OnTriggerStay ) return;
+        if((layerMask & (1 << other.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }

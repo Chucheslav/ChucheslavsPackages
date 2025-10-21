@@ -8,6 +8,7 @@ public class Collider3DEvents : MonoBehaviour
 {
     public UnityEvent triggeredEvent;
     public EventType eventType;
+    [SerializeField] private LayerMask layerMask = Physics.AllLayers;
 
     [Header("Vector 3 event")] [SerializeField]
     public Vector3UnityEvent vector3Event;
@@ -17,20 +18,23 @@ public class Collider3DEvents : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (eventType != EventType.OnCollisionEnter) return;
+        if((layerMask & (1 << collision.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
 
-    private void OnCollisionExit(Collision other)
+    private void OnCollisionExit(Collision collision)
     {
         if (eventType != EventType.OnCollisionExit) return;
+        if((layerMask & (1 << collision.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
 
-    private void OnCollisionStay(Collision collisionInfo)
+    private void OnCollisionStay(Collision collision)
     {
         if (eventType != EventType.OnCollisionStay) return;
+        if((layerMask & (1 << collision.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
@@ -38,6 +42,7 @@ public class Collider3DEvents : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (eventType != EventType.OnTriggerEnter) return;
+        if((layerMask & (1 << other.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
@@ -45,6 +50,7 @@ public class Collider3DEvents : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (eventType != EventType.OnTriggerExit) return;
+        if((layerMask & (1 << other.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }
@@ -52,6 +58,7 @@ public class Collider3DEvents : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (eventType != EventType.OnTriggerStay) return;
+        if((layerMask & (1 << other.gameObject.layer ) )  == 0) return;
         triggeredEvent.Invoke();
         vector3Event.Invoke(eventValue);
     }

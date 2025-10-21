@@ -43,5 +43,8 @@ public static class UnityExtensions
     public static void LogError(this Object MB, string message) => 
         Debug.LogError($"Script {MB.GetType().Name} on object {MB.name} logged error:" + message);
 
+    public static bool IsInLayerMask(this GameObject gameObject, LayerMask layerMask) =>
+        (layerMask & (1 << gameObject.layer)) != 0;
+
 }
 }
