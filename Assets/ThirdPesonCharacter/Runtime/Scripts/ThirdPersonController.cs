@@ -114,7 +114,7 @@ public class ThirdPersonController : MonoBehaviour
         _mAnimator.SetFloat("Turn", _mTurnAmount, 0.1f, Time.deltaTime);
         _mAnimator.SetBool("Crouch", _mCrouching);
         _mAnimator.SetBool("OnGround", _mIsGrounded);
-        if (!_mIsGrounded) _mAnimator.SetFloat("Jump", _mRigidbody.velocity.y);
+        if (!_mIsGrounded) _mAnimator.SetFloat("Jump", _mRigidbody.linearVelocity.y);
 
         // calculate which leg is behind, so as to leave that leg trailing in the jump animation
         // (This code is reliant on the specific run cycle offset in our animations,
@@ -140,7 +140,7 @@ public class ThirdPersonController : MonoBehaviour
         var extraGravityForce = Physics.gravity * mGravityMultiplier - Physics.gravity;
         _mRigidbody.AddForce(extraGravityForce);
 
-        mGroundCheckDistance = _mRigidbody.velocity.y < 0 ? _mOrigGroundCheckDistance : 0.01f;
+        mGroundCheckDistance = _mRigidbody.linearVelocity.y < 0 ? _mOrigGroundCheckDistance : 0.01f;
     }
 
     private void HandleGroundedMovement(bool crouch, bool jump)
@@ -149,7 +149,7 @@ public class ThirdPersonController : MonoBehaviour
         if (jump && !crouch && _mAnimator.GetCurrentAnimatorStateInfo(0).IsName("Grounded"))
         {
             // jump!
-            _mRigidbody.velocity = new Vector3(_mRigidbody.velocity.x, mJumpPower, _mRigidbody.velocity.z);
+            _mRigidbody.linearVelocity = new Vector3(_mRigidbody.linearVelocity.x, mJumpPower, _mRigidbody.linearVelocity.z);
             _mIsGrounded = false;
             _mAnimator.applyRootMotion = false;
             mGroundCheckDistance = 0.1f;
@@ -172,8 +172,8 @@ public class ThirdPersonController : MonoBehaviour
             var v = _mAnimator.deltaPosition * mMoveSpeedMultiplier / Time.deltaTime;
 
             // we preserve the existing y part of the current velocity.
-            v.y = _mRigidbody.velocity.y;
-            _mRigidbody.velocity = v;
+            v.y = _mRigidbody.linearVelocity.y;
+            _mRigidbody.linearVelocity = v;
         }
     }
 

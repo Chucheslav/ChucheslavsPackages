@@ -54,6 +54,8 @@ public class YarnStorageSO: ScriptableObject
                 if (fe == null || fe is not T f) return false;
                 result = f;
                 return true;
+            case null: 
+                return;
             default:
                 Debug.LogError($"Unknown variable type {result.GetType()}");
                 return false;
