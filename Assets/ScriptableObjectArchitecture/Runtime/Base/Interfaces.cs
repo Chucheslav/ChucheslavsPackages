@@ -1,10 +1,5 @@
 namespace ScriptableObjectArchitecture.Base
 {
-public interface ISimpleEventListener
-{
-    public void OnEventRaised();
-}
-
 public interface IScriptablePref
 {
     public void SaveCurrentValue();

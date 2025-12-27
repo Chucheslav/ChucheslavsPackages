@@ -1,19 +1,33 @@
-using ScriptableObjectArchitecture.Base;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace ScriptableObjectArchitecture.MonobehaviourAdapters
 {
-public class SimpleSimpleEventToUnitySimpleEventConverter : MonoBehaviour, ISimpleEventListener
+public class SimpleEventToUnityEventConverter : MonoBehaviour
 {
-    [SerializeField] private SimpleEvent @event;
+    [SerializeField] private List<EventPair> eventBindings = new();
 
-    public UnityEvent response;
+    [SerializeField] private UnityEvent response;
 
-    private void OnEnable() => @event.RegisterListener(this);
+    private void OnEnable()
+    {
+        foreach (EventPair eventBinding in eventBindings) 
+            eventBinding.simpleEvent.Subscribe( eventBinding.InvokeUnityEvent);
+    }
 
-    private void OnDisable() => @event.UnregisterListener(this);
+    private void OnDisable()
+    {
+        foreach (EventPair eventBinding in eventBindings) 
+            eventBinding.simpleEvent.Unsubscribe(eventBinding.InvokeUnityEvent);
+    }
 
-    public void OnEventRaised() => response.Invoke();
+    private class EventPair
+    {
+        public SimpleEvent simpleEvent;
+        public UnityEvent unityEvent;
+        
+        public void InvokeUnityEvent() => unityEvent.Invoke();
+    }
 }
 }

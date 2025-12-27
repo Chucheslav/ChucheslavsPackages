@@ -11,11 +11,15 @@ public class SimpleEvent : ScriptableObject
 {
     [SerializeField] private bool clearOnEnable;
     [SerializeField] private bool clearOnDisable;
-    [SerializeReference] private List<ISimpleEventListener> _listeners = new();
     [SerializeField] private UnityEvent onInvoked;
-    
-    
+
+    [Header("For debugging purposes only.")]
+    [SerializeField] protected bool debugReports;
+    [SerializeField] private List<MonoBehaviour> mbSubscribers = new();
+    [SerializeField] private List<ScriptableObject> soSubscribers = new();
+
     private Action _invoked;
+    
     private void OnEnable()
     {
         if(clearOnEnable) Clear();
@@ -28,21 +32,42 @@ public class SimpleEvent : ScriptableObject
 
     public void Raise()
     {
-        for (int i = _listeners.Count - 1; i >= 0; i--) _listeners[i].OnEventRaised();
         _invoked?.Invoke();
         onInvoked?.Invoke();
     }
-    
-    public void Subscribe(Action method) => _invoked += method;
-    public void Unsubscribe(Action method) => _invoked -= method;
 
-    public void Clear()
+    public void Subscribe(Action method, object target = null)
     {
-        _invoked = null;
-        _listeners.Clear();
+        _invoked += method;
+        if(target == null ) target = method.Target;
+        Register(target);
     }
 
-    public void RegisterListener(ISimpleEventListener listener) => _listeners.Add(listener);
-    public void UnregisterListener(ISimpleEventListener listener) => _listeners.Remove(listener);
+    public void Unsubscribe(Action method,object target = null)
+    {
+        _invoked -= method;
+        if(target == null ) target = method.Target;
+        Unregister(target);
+    }
+
+    protected void Register(object target)
+    {
+        if(target is MonoBehaviour mb)  mbSubscribers.Add(mb);
+        else if(target is ScriptableObject so) soSubscribers.Add(so);
+    }
+
+    protected void Unregister(object target)
+    {
+        if (target is MonoBehaviour mb) mbSubscribers.Remove(mb);
+        else if(target is ScriptableObject so) soSubscribers.Remove(so);
+    }
+
+    public virtual void Clear()
+    {
+        _invoked = null;
+        mbSubscribers.Clear();
+        soSubscribers.Clear();
+    }
+    public virtual void Reset() => Clear();
 }
 }
