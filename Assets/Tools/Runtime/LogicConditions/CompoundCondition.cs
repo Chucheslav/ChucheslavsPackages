@@ -21,7 +21,7 @@ public class CompoundCondition
     {
         if (!conditions.Any())
         {
-            Debug.Log("Compound Condition list is empty, returning true");
+            //Debug.Log("Compound Condition list is empty, returning true");
             return true;
         }
         
