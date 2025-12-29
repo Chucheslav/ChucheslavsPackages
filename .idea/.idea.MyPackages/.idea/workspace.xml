@@ -6,21 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cube (1).controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cube (1).controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/GenericEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/GenericEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/Interfaces.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/Interfaces.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/CommonEvents/SimpleEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/CommonEvents/SimpleEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/MonobehaviourAdapters/SimpleEventToUnityEventConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/MonobehaviourAdapters/SimpleEventToUnityEventConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Stuff/CodeLineCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Stuff/CodeLineCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Test.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Test.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Editor/GenericVariableEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Editor/GenericVariableEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/GenericVariable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/GenericVariable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/idel.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/idel.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/Menu/ToolsMenuItems.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/Menu/ToolsMenuItems.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +26,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/GenericEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/ToolsMenu/CodeLineCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/LoopTimers/CountDownTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/LoopTimers/TimerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/PlayerLoopTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Basic Components/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/TMPTextCommands.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/SetNavAgentTargetFromTagOrTransform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@608d08904508/Runtime/Utility/EnsureInputModuleAvailable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/26/cb522a47/IDisposable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d1d080df785e4f2593accae27eb872de10fc00/b2/9f76551f/Enumerable.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -54,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Unity.exe" />
@@ -158,7 +152,9 @@
       <workItem from="1766422757230" duration="286000" />
       <workItem from="1766423067878" duration="1533000" />
       <workItem from="1766425096465" duration="356000" />
-      <workItem from="1766855445799" duration="8607000" />
+      <workItem from="1766855445799" duration="9034000" />
+      <workItem from="1766937129540" duration="14012000" />
+      <workItem from="1767005281693" duration="4737000" />
     </task>
     <servers />
   </component>

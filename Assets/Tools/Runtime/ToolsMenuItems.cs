@@ -33,23 +33,8 @@ public static class ToolsMenuItems
     }
 
     private const int indent = 2;
+
     [MenuItem("Tools/Chucha/Ouptut PlayerLoop subsystems")]
-    static void PrintPlayerLoopSubSystems()
-    {
-        StringBuilder output = new StringBuilder();
-        output.AppendLine("PlayerLoopSubSystems:");
-        foreach (PlayerLoopSystem system in PlayerLoop.GetCurrentPlayerLoop().subSystemList)
-        {
-            AddSystemRecursively(system, 0);
-        }
-        Debug.Log( output.ToString() );
-        void AddSystemRecursively(PlayerLoopSystem system, int level)
-        {
-            output.Append(' ', level*indent).AppendLine(system.type.ToString());
-            if (system.subSystemList == null ||  system.subSystemList.Length == 0) return;
-            foreach (PlayerLoopSystem subSystem in system.subSystemList) 
-                AddSystemRecursively(subSystem, level + 1);
-        }
-    }
+    static void PrintPlayerLoopSubSystems() => PlayerLoopTools.PrintToConsole(PlayerLoop.GetCurrentPlayerLoop(), indent);
 }
 }

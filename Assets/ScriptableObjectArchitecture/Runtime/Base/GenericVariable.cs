@@ -8,8 +8,10 @@ public abstract class GenericVariable<T> : GenericEvent<T>
     [SerializeField] private T variable;
     [SerializeField] private T defaultValue;
 
-    public void Raise() => Raise(variable);
-
+#if UNITY_EDITOR
+    public void EditorRaise() => Raise(variable);
+#endif
+    
     public T Value
     {
         get => variable;
