@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using System.Linq;
 using ScriptableObjectArchitecture.Base;
 using UnityEngine;
-using Tools;
 using Tools.Extensions;
+using Tools.TypeSerialization;
 
 namespace ScriptableObjectArchitecture
 {

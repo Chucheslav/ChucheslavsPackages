@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
 
 namespace Tools.LogicConditions
 {
 
-public abstract class ConditionBase: ScriptableObject
+[Serializable]
+public abstract class ConditionBase
 {
     public virtual bool Evaluate() => false;
 }

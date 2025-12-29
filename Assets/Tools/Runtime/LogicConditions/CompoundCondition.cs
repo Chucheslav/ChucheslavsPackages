@@ -10,7 +10,7 @@ public class CompoundCondition
 {
     [SerializeField] private LogicOperator logicOperator;
     [Tooltip("Leave empty for always true")]
-    [SerializeField] private List<ConditionBase> conditions;
+    [SerializeReference] private List<ConditionBase> conditions;
 
     public CompoundCondition()
     {

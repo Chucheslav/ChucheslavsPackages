@@ -1,8 +1,10 @@
 using System.Linq;
-using Tools;
+using Tools.TypeSerialization;
 using UnityEditor;
 using UnityEngine;
 
+namespace Tools.Editor
+{
 [CustomPropertyDrawer(typeof(TypeRestrictionAttribute))]
 public class TypeRestrictionDrawer : PropertyDrawer
 {
@@ -10,11 +12,11 @@ public class TypeRestrictionDrawer : PropertyDrawer
     {
         //base.OnGUI(position, property, label);
         EditorGUI.PropertyField(position, property, label, true);
-        
+
         TypeRestrictionAttribute thisAttribute = attribute as TypeRestrictionAttribute;
-        
+
         //CheckDragAndDrops
-        
+
         Rect fieldRect = GUILayoutUtility.GetLastRect();
 
         if (!fieldRect.Contains(Event.current.mousePosition)) return;
@@ -33,3 +35,5 @@ public class TypeRestrictionDrawer : PropertyDrawer
         }
     }
 }
+}
+

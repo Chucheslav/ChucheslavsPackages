@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Editor/GenericVariableEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Editor/GenericVariableEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/GenericVariable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/GenericVariable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/Menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/Menu/ToolsMenuItems.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/Menu/ToolsMenuItems.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Prefs/ScriptablePrefsContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Prefs/ScriptablePrefsContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Editor/TypeRestrictionDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Editor/TypeRestrictionDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/BasicCondition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/BasicCondition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/CompoundCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/CompoundCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/TypeRestrictionAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/TypeRestrictionAttribute.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +27,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/GenericEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Editor/ConditionBaseDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/Extensions/ReflectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/ConditionBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/LoopTimers/CountDownTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/LoopTimers/TimerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/PlayerLoopTools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/TypeSerialization/TypeRestrictionAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Basic Components/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/Events&amp;Commands/TMPTextCommands.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/NavigationExtensions/SetNavAgentTargetFromTagOrTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Testing/test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@608d08904508/Runtime/Utility/EnsureInputModuleAvailable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3852b49eca73473da3e3282226b08bd79c5200/3c/4c81a3e1/AdvancedDropdown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/26/cb522a47/IDisposable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d1d080df785e4f2593accae27eb872de10fc00/b2/9f76551f/Enumerable.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -154,7 +161,7 @@
       <workItem from="1766425096465" duration="356000" />
       <workItem from="1766855445799" duration="9034000" />
       <workItem from="1766937129540" duration="14012000" />
-      <workItem from="1767005281693" duration="4737000" />
+      <workItem from="1767005281693" duration="18499000" />
     </task>
     <servers />
   </component>
