@@ -5,7 +5,6 @@ namespace ScriptableObjectArchitecture.Base
 public abstract class ScriptablePref<T> : GenericVariable<T>, IScriptablePref
 {
     [SerializeField] protected string prefID;
-    [SerializeField] private T defaultValue;
 
     public string PrefID => prefID; //exposed for use by editor script
 

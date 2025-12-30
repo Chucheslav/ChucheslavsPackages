@@ -6,7 +6,7 @@ namespace ScriptableObjectArchitecture.Base
 public abstract class GenericVariable<T> : GenericEvent<T>
 {
     [SerializeField] private T variable;
-    [SerializeField] private T defaultValue;
+    [SerializeField] protected T defaultValue;
 
 #if UNITY_EDITOR
     public void EditorRaise() => Raise(variable);
