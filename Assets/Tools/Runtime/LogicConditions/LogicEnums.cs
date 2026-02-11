@@ -11,6 +11,7 @@ public enum Comparison
 
 public enum LogicOperator
 {
+    AlwaysTrue,
     Or,
     And,
     Nor,

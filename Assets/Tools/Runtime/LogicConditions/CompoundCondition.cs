@@ -9,7 +9,6 @@ namespace Tools.LogicConditions
 public class CompoundCondition
 {
     [SerializeField] private LogicOperator logicOperator;
-    [Tooltip("Leave empty for always true")]
     [SerializeReference] private List<ConditionBase> conditions;
 
     public CompoundCondition()
@@ -19,9 +18,11 @@ public class CompoundCondition
 
     public bool Evaluate()
     {
+        if(logicOperator is LogicOperator.AlwaysTrue) return true;
+        
         if (!conditions.Any())
         {
-            //Debug.Log("Compound Condition list is empty, returning true");
+            Debug.LogError("Condition list empty, set to always true if no conditions are intended.");
             return true;
         }
         
