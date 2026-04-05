@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using ScriptableObjectArchitecture.Base;
 using UnityEngine;
 using UnityEngine.Events;
 

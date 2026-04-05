@@ -16,9 +16,8 @@ public class ScriptableObjectSaveLoader<T> where T : ScriptableObject
         File.WriteAllText(PathToFile(fileName), JsonUtility.ToJson(scriptableObject));
     }
 
-    public bool TryLoadFromFile(out T result, string fileName = null)
+    public bool TryLoadFromFile(in T result, string fileName = null)
     {
-        result = null;
         if (!File.Exists(PathToFile(fileName))) return false;
         try
         {

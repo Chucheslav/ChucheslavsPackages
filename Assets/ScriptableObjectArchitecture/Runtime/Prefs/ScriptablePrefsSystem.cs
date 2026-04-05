@@ -12,7 +12,7 @@ public class ScriptablePrefsSystem : ScriptableObject
     private void OnEnable()
     {
         if (_instance != null)
-            Debug.Log("More then one localization system scriptable object referenced, last referenced will be used");
+            Debug.Log("More then one ScriptablePrefsSystem scriptable object referenced, last referenced will be used");
         _instance = this;
         if(prefsContainer!= null) prefsContainer.LoadAll();
     }
