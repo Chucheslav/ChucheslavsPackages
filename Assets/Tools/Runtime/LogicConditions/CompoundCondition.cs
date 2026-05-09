@@ -48,7 +48,7 @@ public class CompoundCondition
         return logicOperator is LogicOperator.And or LogicOperator.Nor;;
     }
     
-
+    public static implicit operator bool (CompoundCondition condition) => condition != null && condition.Evaluate();
 }
 }
 

@@ -12,9 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/Extensions/IEnumerableExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/Extensions/IEnumerableExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/Enums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/Enums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/CompoundCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/CompoundCondition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tools/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +28,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Editor/EnumPrefEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjectArchitecture/Runtime/Base/GenericEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/Editor/ConditionBaseDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/Editor/TypeRestrictionDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/Extensions/ICollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/Extensions/IDictionaryExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/Extensions/IEnumerableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/Extensions/ReflectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/CompoundCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/ConditionBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/LoopTimers/CountDownTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tools/Runtime/LoopTimers/TimerBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -114,15 +119,13 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false" ignored-value-for-modified-check="25816">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="25816" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -179,6 +182,9 @@
       <workItem from="1775990061201" duration="4872000" />
       <workItem from="1776644535883" duration="106000" />
       <workItem from="1776785052380" duration="3727000" />
+      <workItem from="1778350873215" duration="184000" />
+      <workItem from="1778351295094" duration="143000" />
+      <workItem from="1778351461398" duration="357000" />
     </task>
     <servers />
   </component>
