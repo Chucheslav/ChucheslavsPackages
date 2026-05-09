@@ -27,8 +27,14 @@ namespace Tools
         
         public static bool TryFindFirst<T>(this ICollection<T> source, Func<T, bool> condition, out T found)
         {
+            if (source == null)
+            {
+                found = default;
+                return false;
+            }
+            
             found = source.FirstOrDefault(condition);
-            return source.Count != 0 && condition(found);
+            return found != null && condition(found);
         }
     
         public static IEnumerable<T> Shuffle<T>(this ICollection<T> source) => 
