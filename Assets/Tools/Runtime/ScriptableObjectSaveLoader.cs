@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using UnityEngine;
 
-namespace Tools.Runtime
+namespace Tools
 {
 [Serializable]
 public class ScriptableObjectSaveLoader<T> where T : ScriptableObject

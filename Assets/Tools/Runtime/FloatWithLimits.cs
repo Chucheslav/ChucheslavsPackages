@@ -1,6 +1,8 @@
 using System;
 using UnityEngine;
 
+namespace Tools
+{
 [Serializable]
 public struct FloatWithLimits
 {
@@ -86,4 +88,5 @@ public struct FloatWithLimits
     public void ClearSubscribers() => ValuesChanged = null;
     
     public static implicit operator float(FloatWithLimits fl) => fl.value;
+}
 }

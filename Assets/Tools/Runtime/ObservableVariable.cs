@@ -1,6 +1,8 @@
 using System;
 using UnityEngine;
 
+namespace Tools
+{
 [Serializable]
 public class ObservableVariable<T>
 {
@@ -20,4 +22,5 @@ public class ObservableVariable<T>
 
     public static implicit operator T(ObservableVariable<T> ov) => ov.Value;
 
+}
 }

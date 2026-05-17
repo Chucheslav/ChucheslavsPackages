@@ -1,9 +1,11 @@
 using System;
 using System.Linq;
 using Tools.TypeSerialization;
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 
+namespace Tools.Editor
+{
 [CustomPropertyDrawer(typeof(SerializableType))]
 public class SerializableTypeDrawer : PropertyDrawer
 {
@@ -43,4 +45,5 @@ public class SerializableTypeDrawer : PropertyDrawer
             property.serializedObject.ApplyModifiedProperties();
         }
     }
+}
 }

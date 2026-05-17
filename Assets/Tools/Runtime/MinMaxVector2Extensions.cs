@@ -1,6 +1,7 @@
-using System.Data;
 using UnityEngine;
 
+namespace Tools
+{
 public static class MinMaxVector2Extensions
 {
     public static float GetRandomValue(this Vector2 limits) => UnityEngine.Random.Range(limits.x, limits.y);
@@ -15,4 +16,5 @@ public static class MinMaxVector2Extensions
     public static float Min(this Vector2 v2) => Mathf.Min(v2.x, v2.y);
 
     public static bool Contains(this Vector2 v2, float f) => f <= v2.y && f >= v2.x;
+}
 }
