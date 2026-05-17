@@ -12,9 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/Enums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/Enums.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/CompoundCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/LogicConditions/CompoundCondition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonCharacter/Runtime/Scripts/NewAssembly.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonCharacter/Runtime/Scripts/NewAssembly.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPesonCharacter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPesonCharacter/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +185,9 @@
       <workItem from="1778350873215" duration="184000" />
       <workItem from="1778351295094" duration="143000" />
       <workItem from="1778351461398" duration="357000" />
+      <workItem from="1778353687835" duration="1673000" />
+      <workItem from="1778363025030" duration="79000" />
+      <workItem from="1779035498869" duration="74000" />
     </task>
     <servers />
   </component>
@@ -216,32 +219,6 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Tools/Runtime/Extensions/ICollectionExtensions.cs</url>
-          <line>12</line>
-          <properties documentPath="C:\Projects\MyPackages\Assets\Tools\Runtime\Extensions\ICollectionExtensions.cs" containingFunctionPresentation="Method 'WeightedRandom'">
-            <startOffsets>
-              <option value="466" />
-            </startOffsets>
-            <endOffsets>
-              <option value="507" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Tools/Runtime/Extensions/ICollectionExtensions.cs</url>
-          <line>29</line>
-          <properties documentPath="C:\Projects\MyPackages\Assets\Tools\Runtime\Extensions\ICollectionExtensions.cs" containingFunctionPresentation="Method 'TryFindFirst'">
-            <startOffsets>
-              <option value="1062" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1103" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
