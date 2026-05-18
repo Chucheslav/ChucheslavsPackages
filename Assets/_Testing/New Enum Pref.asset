@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874dd0b2ec6a4bf7952c25cb74f48e9e, type: 3}
+  m_Name: New Enum Pref
+  m_EditorClassIdentifier: 
+  clearOnEnable: 0
+  clearOnDisable: 0
+  onInvoked:
+    m_PersistentCalls:
+      m_Calls: []
+  debugReports: 0
+  mbSubscribers: []
+  soSubscribers: []
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  variable: Awake
+  defaultValue: Awake
+  prefID: 
+  typeName: ComponentMethod

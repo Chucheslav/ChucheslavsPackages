@@ -12,18 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Editor/MinMaxDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Editor/MinMaxDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Editor/SerializableTypeDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Editor/SerializableTypeDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/FloatWithLimits.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/FloatWithLimits.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/IAmComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/IAmComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/IntWithLimits.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/IntWithLimits.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/MinMaxAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/MinMaxAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/MinMaxVector2Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/MinMaxVector2Extensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/ObservableVariable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/ObservableVariable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/ScriptableObjectSaveLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/ScriptableObjectSaveLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/Runtime/ToolsMenuItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/Runtime/ToolsMenuItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tools/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Testing/TestComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Testing/TestComponent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +185,7 @@
       <workItem from="1778353687835" duration="1673000" />
       <workItem from="1778363025030" duration="79000" />
       <workItem from="1779035498869" duration="74000" />
-      <workItem from="1779053173122" duration="2481000" />
+      <workItem from="1779053173122" duration="4880000" />
     </task>
     <servers />
   </component>

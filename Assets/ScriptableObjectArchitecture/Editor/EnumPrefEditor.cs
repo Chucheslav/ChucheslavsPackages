@@ -10,6 +10,8 @@ namespace ScriptableObjectArchitecture.Editor
 public class EnumPrefEditor : UnityEditor.Editor
 {
     private int _index;
+    string errorMessage;
+    
     public override void OnInspectorGUI()
     {
         EditorGUILayout.PropertyField(serializedObject.FindProperty("prefID"));
@@ -26,22 +28,25 @@ public class EnumPrefEditor : UnityEditor.Editor
                 select type).ToList();
             if (!ValidTypes.Any())
             {
+                errorMessage = "no such Enum found";
                 enumPref.Type = null;
-                GUILayout.Label(  typeName.stringValue + " - No such Enum found");
-                return;
             }
 
-            if (ValidTypes.Count() > 1)
+            else if (ValidTypes.Count() > 1)
             {
+                errorMessage = "more than one Enum with such name found";
                 enumPref.Type = null;
-                GUILayout.Label("more then one fitting Enum found");
-                return;
             }
 
-            enumPref.Type = ValidTypes.First();
+            else enumPref.Type = ValidTypes.First();
         }
         
-        if(enumPref.Type == null) return;
+        if(enumPref.Type == null)
+        {
+            if(!string.IsNullOrWhiteSpace(typeName.stringValue))
+                GUILayout.Label( $"{typeName.stringValue} - {errorMessage}");
+            return;
+        }
         GUILayout.Label("Choose Value");
         string[] choices = Enum.GetNames(enumPref.Type);
         int _index = Array.IndexOf(choices, enumPref.Value);
