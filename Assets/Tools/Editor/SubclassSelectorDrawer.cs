@@ -6,33 +6,37 @@ using UnityEngine;
 
 namespace Tools.Editor
 {
+//вольный пересказ кода с youtube канала git-amend
 public class SubclassSelectorDrawer<T> : PropertyDrawer
 {
-    private static Dictionary<string, Type> _typeMap;
+    private static Dictionary<string, Type> _typeMap; //because can't serialize dictionary
+
+    protected virtual string BaseTypeDisplayName => "Forgot to declare base name";
 
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) {
         if (_typeMap == null) BuildTypeMap();
         
-        var typeRect = new Rect(position.x, position.y, position.width, EditorGUIUtility.singleLineHeight);
-        var contentRect = new Rect(position.x, position.y + EditorGUIUtility.singleLineHeight, position.width, position.height - EditorGUIUtility.singleLineHeight);
+        Rect typeRect = new Rect(position.x, position.y, position.width, EditorGUIUtility.singleLineHeight);
+        Rect contentRect = new Rect(position.x, position.y + EditorGUIUtility.singleLineHeight, position.width, 
+            position.height - EditorGUIUtility.singleLineHeight);
         
         EditorGUI.BeginProperty(position, label, property);
-        var typeName = property.managedReferenceFullTypename;
-        var displayName = GetShortTypeName(typeName);
 
-        if (EditorGUI.DropdownButton(typeRect, new GUIContent(displayName ?? "Select Effect Type"), FocusType.Keyboard)) {
+        if (EditorGUI.DropdownButton(typeRect, 
+                new GUIContent(GetTypeNameForDisplay(property.managedReferenceFullTypename) 
+                               ?? $"Select {BaseTypeDisplayName} Type"), FocusType.Keyboard)) 
+        {
             var menu = new GenericMenu();
             if (_typeMap == null || _typeMap.Count == 0) {
-                menu.AddDisabledItem(new GUIContent("No Ability Effects available"));
+                menu.AddDisabledItem(new GUIContent($"No {BaseTypeDisplayName} types available"));
                 menu.ShowAsContext();
                 return;
             }
 
-            foreach (var kvp in _typeMap) {
-                var name = kvp.Key;
-                var type = kvp.Value;
-                menu.AddItem(new GUIContent(name), type.FullName == typeName, () => {
-                    property.managedReferenceValue = Activator.CreateInstance(type);
+            foreach (KeyValuePair<string, Type> kvp in _typeMap) {
+                menu.AddItem(new GUIContent(kvp.Key), kvp.Value.FullName == property.managedReferenceFullTypename, 
+                    () => {
+                    property.managedReferenceValue = Activator.CreateInstance(kvp.Value);
                     property.serializedObject.ApplyModifiedProperties();
                 });
             }
@@ -53,7 +57,7 @@ public class SubclassSelectorDrawer<T> : PropertyDrawer
     }
 
     private static void BuildTypeMap() {
-        var baseType = typeof(T);
+        Type baseType = typeof(T);
         _typeMap = AppDomain.CurrentDomain.GetAssemblies()
             .SelectMany(asm => {
                 try { return asm.GetTypes(); }
@@ -63,9 +67,9 @@ public class SubclassSelectorDrawer<T> : PropertyDrawer
             .ToDictionary(t => ObjectNames.NicifyVariableName(t.Name), t => t);
     }
 
-    private static string GetShortTypeName(string fullTypeName) {
+    private string GetTypeNameForDisplay(string fullTypeName) {
         if (string.IsNullOrEmpty(fullTypeName)) return null;
-        var parts = fullTypeName.Split(' ');
+        string[] parts = fullTypeName.Split(' ');
         return parts.Length > 1 ? parts[1].Split('.').Last() : fullTypeName;
     }
 }
