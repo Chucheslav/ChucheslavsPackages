@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e4462fc8-d238-49a7-9a2c-658c1354ab65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyPackages/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/StretchToScreenSR.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityEventsAndComponents/Runtime/RendererComponents/StretchToScreenSR.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +190,8 @@
       <workItem from="1779120589097" duration="2808000" />
       <workItem from="1779648413147" duration="55000" />
       <workItem from="1779648482911" duration="930000" />
+      <workItem from="1779651902256" duration="5716000" />
+      <workItem from="1779664475265" duration="298000" />
     </task>
     <servers />
   </component>

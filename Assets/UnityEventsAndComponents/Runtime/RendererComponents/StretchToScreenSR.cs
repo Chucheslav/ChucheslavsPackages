@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UnityEventsAndComponents.Runtime.RendererComponents
+namespace UnityEventsAndComponents.RendererComponents
 {
 [AddComponentMenu("Custom Components/Renderers/Stretch Sprite Renderer To Screen")]
 [RequireComponent(typeof(SpriteRenderer))]
