@@ -26,7 +26,7 @@ public class SubclassSelectorDrawer<T> : PropertyDrawer
                 new GUIContent(GetTypeNameForDisplay(property.managedReferenceFullTypename) 
                                ?? $"Select {BaseTypeDisplayName} Type"), FocusType.Keyboard)) 
         {
-            var menu = new GenericMenu();
+            GenericMenu menu = new GenericMenu();
             if (_typeMap == null || _typeMap.Count == 0) {
                 menu.AddDisabledItem(new GUIContent($"No {BaseTypeDisplayName} types available"));
                 menu.ShowAsContext();

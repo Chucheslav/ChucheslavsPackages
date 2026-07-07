@@ -25,3 +25,12 @@ public enum ComponentMethod
     OnDisable,
     OnDestroy
 }
+
+public enum InputActionState
+{
+    None,
+    Started,
+    Ongoing,
+    Completed,
+    Canceled
+}
