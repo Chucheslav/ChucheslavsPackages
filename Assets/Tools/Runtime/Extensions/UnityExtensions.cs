@@ -33,6 +33,22 @@ public static class UnityExtensions
         }
         return null;
     }
+    
+    public static bool TryGetComponentInTree<T>(this GameObject target, out T component) where T : Component => TryGetComponentInTree<T>(target.transform, out component);
+
+    public static bool TryGetComponentInTree<T>(this Transform target, out T component, bool startWithTarget = true) where T : Component
+    {
+        component = null;
+        if (!target) return false;
+        
+        if (startWithTarget && target.TryGetComponent(out component)) return true;
+        
+        T[] allComponents = target.root.GetComponentsInChildren<T>();
+        if (allComponents.Length == 0) return false;
+        if(allComponents.Length >1) target.gameObject.LogWarning($"more then one component of type {typeof(T).Name} found in hierarchy, returning first one found");
+        component = allComponents[0];
+        return true;
+    }
 
     public static void LogMessage(this Object MB, string message) => 
         Debug.Log($"Script {MB.GetType().Name} on object {MB.name} says:" + message);
